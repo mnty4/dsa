@@ -1,0 +1,3 @@
+/home/lukas/CLionProjects/tut2Array/cmake-build-debug/CMakeFiles/tut2Array.dir
+/home/lukas/CLionProjects/tut2Array/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lukas/CLionProjects/tut2Array/cmake-build-debug/CMakeFiles/rebuild_cache.dir
