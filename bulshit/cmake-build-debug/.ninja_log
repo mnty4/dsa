@@ -1,0 +1,9 @@
+# ninja log v5
+306	337	1678519897098378467	bulshit	4d7f40cd1cbcb0bb
+1	1142	1678518396285068680	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	bbc48d56bea7c4f8
+0	12	1678575816714806871	build.ninja	d4e2c3cb99c45142
+0	268	1678519889818268928	CMakeFiles/bulshit.dir/main.cpp.o	1ab1275679d54eb1
+1	1959	1678518397101091108	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	6a4b428ff8a0a42f
+0	306	1678519897070378046	CMakeFiles/bulshit.dir/missing.cpp.o	29248b2dc3d05ce5
+1	3170	1678518398309124302	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	4bb9df57c7583507
+1	996	1678518396141064720	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	9dbd717193b50f1d

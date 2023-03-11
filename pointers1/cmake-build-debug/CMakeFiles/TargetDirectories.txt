@@ -1,0 +1,3 @@
+/home/lukas/CLionProjects/pointers1/cmake-build-debug/CMakeFiles/pointers1.dir
+/home/lukas/CLionProjects/pointers1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lukas/CLionProjects/pointers1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
