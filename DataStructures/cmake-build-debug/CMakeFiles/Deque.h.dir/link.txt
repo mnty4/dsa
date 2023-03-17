@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Deque.h.dir/Deque.cpp.o CMakeFiles/Deque.h.dir/constructors.cpp.o -o Deque.h 
