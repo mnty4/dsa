@@ -7,20 +7,25 @@
 //    T t;
 //    Node* next;
 //};
-template <typename T>
-struct Node {
-    T t;
-    Node* next;
-};
+
+
+//template <typename T>
+//struct Node {
+//    T t;
+//    Node* next;
+//};
 
 template <typename T>
 class LinkedList {
+    public: struct Node {
+        T t;
+        Node* next;
+    };
     private:
-
-        Node<T> *head;
-        Node<T> *tail;
+        Node *head;
+        Node *tail;
     public:
-        Node<T> push_front(T t) {
+        Node push_front(T t) {
             Node node {t, head};
             head = &node;
             if (tail == nullptr) {
@@ -28,7 +33,7 @@ class LinkedList {
             }
             return node;
         }
-        Node<T> push_back(T t) {
+        Node push_back(T t) {
             Node node {t};
             if (tail == nullptr) {
                 head = &node;
@@ -39,10 +44,22 @@ class LinkedList {
             tail = &node;
             return node;
         }
-        Node<T> insert_after(Node<T> prev, T t) {
+        Node insert_after(Node prev, T t) {
             Node node {t, prev.next};
             prev.next = &node;
             return node;
+        }
+        T& operator[](int i) {
+            Node* node = head;
+            int count = 0;
+            while (node != nullptr) {
+                if (i == count) {
+                    return node->t;
+                }
+                node = node->next;
+                ++count;
+            }
+            return -1;
         }
 };
 
